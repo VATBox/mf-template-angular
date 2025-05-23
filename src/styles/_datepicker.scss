@@ -1,0 +1,62 @@
+#mf-template-angular {
+  .mat-mdc-form-field-infix {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: 30px;
+  }
+
+  .mdc-text-field--no-label:not(.mdc-text-field--textarea) .mat-mdc-form-field-input-control.mdc-text-field__input,
+  .mat-mdc-text-field-wrapper .mat-mdc-form-field-input-control,
+  .mat-date-range-input-container,
+  .mat-mdc-form-field-flex {
+    height: 30px !important;
+  }
+
+  .mat-mdc-icon-button.mat-mdc-button-base {
+    color: #5f7590 !important;
+    --mat-mdc-button-persistent-ripple-color: transparent !important;
+    --mat-mdc-button-ripple-color: rgba(0, 0, 0, 0) !important;
+  }
+
+  .mat-mdc-text-field-wrapper.mdc-text-field,
+  .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    --mdc-filled-text-field-container-color: white;
+  }
+
+  .mat-mdc-form-field-input-control.mat-mdc-form-field-input-control {
+    font: normal normal 400 14px/41px Open Sans;
+  }
+
+  .mat-mdc-form-field-subscript-wrapper {
+    height: 3px;
+  }
+
+  .mat-datepicker-toggle .mat-mdc-icon-button {
+    width: 38px !important;
+  }
+
+  .mdc-text-field--filled.mdc-text-field--disabled {
+    background-color: #e0e0e0 !important;
+    .mat-mdc-icon-button svg {
+      color: #0d30525c;
+    }
+  }
+
+  ::ng-deep.date-field input:disabled {
+    background-color: transparent !important;
+    color: #a1a1a1;
+  }
+
+  .mat-date-range-input-separator {
+    display: flex !important;
+    align-items: center !important;
+  }
+  .mat-date-range-input-container {
+    align-items: inherit !important;
+  }
+}
+
+

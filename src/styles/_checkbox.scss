@@ -1,0 +1,79 @@
+#mf-template-angular {
+  .mdc-checkbox,
+  .mat-pseudo-checkbox {
+    font-size: 14px !important;
+    font-family: Open Sans, sans-serif;
+
+    .mdc-checkbox__background {
+      height: 20px !important;
+      width: 20px !important;
+      border-width: 0.3px !important;
+      border-radius: 3px !important;
+    }
+
+    //checkmark-icon
+    .mdc-checkbox__checkmark {
+      margin: 3px 2px 2px 3px !important;
+      width: 12px;
+      height: 12px;
+      color: white !important;
+    }
+    .mdc-checkbox__checkmark-path {
+      stroke-width: 5px !important;
+      border-radius: 5px;
+    }
+
+    .mdc-checkbox__native-control {
+      width: 30px !important;
+      height: 30px !important;
+    }
+
+    //no ripple effect
+    .mdc-checkbox__ripple {
+      display: none;
+    }
+
+    //checked, enabled
+    .mdc-checkbox__native-control:enabled:checked ~ .mdc-checkbox__background {
+      background-color: #37a8e4 !important;
+      border-color: #37a8e4 !important;
+    }
+
+    //unchecked, enabled
+    .mdc-checkbox__native-control:enabled:not(:checked):not(:indeterminate):not([data-indeterminate='true'])
+      ~ .mdc-checkbox__background {
+      background-color: #eef0f5 !important;
+      border-color: #d1d6e5 !important;
+    }
+
+    //checked, disabled
+    .mdc-checkbox__native-control[disabled]:checked ~ .mdc-checkbox__background,
+    .mdc-checkbox__native-control[disabled]:indeterminate ~ .mdc-checkbox__background,
+    .mdc-checkbox__native-control[data-indeterminate='true'][disabled] ~ .mdc-checkbox__background {
+      background-color: #a8b0d1 !important;
+      border-color: #d1d6e5 !important;
+    }
+
+    //unchecked, disabled
+    .mdc-checkbox__native-control[disabled]:not(:checked):not(:indeterminate):not([data-indeterminate='true'])
+      ~ .mdc-checkbox__background {
+      background-color: #d1d6e5 !important;
+      border-color: #d1d6e5 !important;
+    }
+
+    --mdc-checkbox-selected-focus-state-layer-color: #37a8e4;
+    --mdc-checkbox-selected-hover-state-layer-color: #37a8e4;
+    --mdc-checkbox-selected-pressed-state-layer-color: #37a8e4;
+    --mdc-checkbox-unselected-focus-state-layer-color: #37a8e4;
+    --mdc-checkbox-unselected-hover-state-layer-color: #37a8e4;
+    --mdc-checkbox-unselected-pressed-state-layer-color: #37a8e4;
+  }
+}
+
+.mat-mdc-option .mat-pseudo-checkbox-minimal {
+  display: none;
+}
+
+.mat-pseudo-checkbox-checked.mat-pseudo-checkbox-full {
+  background: #37a8e4;
+}

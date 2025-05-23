@@ -1,0 +1,21 @@
+#mf-template-angular {
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1 !important;
+    border-radius: 5px !important;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px !important;
+    background: #0d3052ba !important;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(92, 107, 115, 0.569) !important;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 5px !important;
+  }
+}

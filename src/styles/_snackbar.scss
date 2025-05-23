@@ -1,0 +1,9 @@
+#mf-template-angular {
+  .mat-mdc-snack-bar-container .mdc-snackbar__surface {
+    background-color: transparent !important;
+  }
+
+  .mat-mdc-snack-bar-container .mat-mdc-button.mat-mdc-snack-bar-action:not(:disabled) {
+    color: #fff !important;
+  }
+}

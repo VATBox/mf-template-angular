@@ -1,0 +1,39 @@
+#mf-template-angular {
+  .mat-mdc-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element {
+    opacity: 0 !important; /*click effect color change*/
+    background-color: #37a8e4 !important;
+  }
+
+  .mat-mdc-radio-button.mat-accent .mdc-radio__inner-circle {
+    background-color: #37a8e4 !important; /*inner circle color change*/
+  }
+
+  .mat-mdc-radio-button
+    .mdc-radio
+    .mdc-radio__native-control:enabled:checked
+    + .mdc-radio__background
+    .mdc-radio__outer-circle,
+  .mat-mdc-radio-button.mat-accent.mat-radio-checked .mdc-radio__outer-circle,
+  .mat-mdc-radio-button
+    .mdc-radio
+    .mdc-radio__native-control:enabled
+    + .mdc-radio__background
+    .mdc-radio__inner-circle {
+    border-color: #37a8e4 !important;
+  }
+}
+
+#mf-template-angular .mat-mdc-radio-button.mat-accent {
+  --mdc-radio-disabled-selected-icon-color: #000;
+  --mdc-radio-disabled-unselected-icon-color: #000;
+  --mdc-radio-unselected-hover-icon-color: #212121;
+  --mdc-radio-unselected-icon-color: rgba(0, 0, 0, 0.54);
+  --mdc-radio-unselected-pressed-icon-color: rgba(0, 0, 0, 0.54);
+  --mdc-radio-selected-focus-icon-color: #37a8e4 !important;
+  --mdc-radio-selected-hover-icon-color: #37a8e4 !important;
+  --mdc-radio-selected-icon-color: #37a8e4 !important;
+  --mdc-radio-selected-pressed-icon-color: #37a8e4 !important;
+  --mat-radio-ripple-color: #000;
+  --mat-radio-checked-ripple-color: #37a8e4 !important;
+  --mat-radio-disabled-label-color: rgba(0, 0, 0, 0.38);
+}

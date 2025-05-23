@@ -1,0 +1,16 @@
+#mf-template-angular,
+.example-prefix-overlay {
+  .mat-mdc-raised-button:not(:disabled) {
+    background-color: #37a8e4;
+    color: #fff;
+    min-width: 100px;
+    height: 30px;
+  }
+
+  .mat-mdc-outlined-button:not(:disabled),
+  .mat-mdc-outlined-button[disabled],
+  .mat-mdc-raised-button[disabled] {
+    min-width: 100px;
+    height: 30px;
+  }
+}

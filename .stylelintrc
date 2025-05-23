@@ -1,0 +1,7 @@
+{
+  "rules": {
+    "selector-class-pattern": ["^example-prefix", {
+      "message": "Class names should start with the 'example-prefix' prefix"
+    }]
+  }
+}
