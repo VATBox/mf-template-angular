@@ -1,7 +1,7 @@
 # mf-template-angular
 Template to create angular mFe. Read the instruction below and use this as a template to create new angular mFe.
 
-1. The name of the new repository should start with prefix "mf-cokpit-" by convention 
+1. The name of the new repository should start with prefix "mf-cockpit-" by convention 
 2. Run "npm install" command to install the libraries. If you need token from aws code artifacts do the following:
     - get the token from aws code artifacts
     - create .npmrc file on the root level using the .npmrc.template
